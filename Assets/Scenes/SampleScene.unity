@@ -166,6 +166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &9316450
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -435,6 +437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &114017581
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,6 +485,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &114017584
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -680,6 +686,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &182245074
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1343,6 +1351,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &414137643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,6 +1399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &414137646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1583,6 +1595,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &436401493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +1722,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &487674360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1990,6 +2006,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!1 &664788334
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,6 +2128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!1 &742326225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,6 +2233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &744759519
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2407,6 +2429,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!1 &781760714
 GameObject:
   m_ObjectHideFlags: 0
@@ -2527,6 +2551,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &823942872
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,6 +2673,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &836492862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,6 +2927,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &854208034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,6 +3118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &943665918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,6 +3240,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1006932784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3375,10 +3409,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 3
   score: 0
-  livesText: {fileID: 222108707}
+  livesTest: {fileID: 222108707}
   scoreText: {fileID: 436401495}
   gameOver: 0
-  gameOverPannel: {fileID: 282805444}
+  gameOverPanel: {fileID: 282805444}
   numberOfBricks: 0
 --- !u!4 &1084212871
 Transform:
@@ -3514,6 +3548,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1160127885
 GameObject:
   m_ObjectHideFlags: 0
@@ -3634,6 +3670,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1344041993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3737,6 +3775,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1376039782
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3923,6 +3963,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1497031820
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4091,8 +4133,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.9339623, g: 0.86816317, b: 0.12775902, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 82dda2d0f747b344f9913a80e4695157, type: 3}
+  m_Color: {r: 0.9339623, g: 0.86816317, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4111,7 +4153,7 @@ Transform:
   m_GameObject: {fileID: 1524787784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -4253,6 +4295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!1 &1556727740
 GameObject:
   m_ObjectHideFlags: 0
@@ -4356,6 +4400,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1557708900
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4550,6 +4596,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1584285251
 GameObject:
   m_ObjectHideFlags: 0
@@ -4596,6 +4644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1584285254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4716,6 +4766,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1591779038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4836,6 +4888,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1632884041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5030,6 +5084,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!1 &1742793358
 GameObject:
   m_ObjectHideFlags: 0
@@ -5150,6 +5206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1784091368
 GameObject:
   m_ObjectHideFlags: 0
@@ -5270,6 +5328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1792016323
 GameObject:
   m_ObjectHideFlags: 0
@@ -5316,6 +5376,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1792016326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5510,6 +5572,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1860601960
 GameObject:
   m_ObjectHideFlags: 0
@@ -5686,6 +5750,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1864508009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5959,6 +6025,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1985683075
 GameObject:
   m_ObjectHideFlags: 0
@@ -6079,6 +6147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &1989480124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6125,6 +6195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &1989480127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6319,6 +6391,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 2
+  hitSprite: {fileID: 21300000, guid: e9efd3b7c0d002d48b1f21b3a6b31604, type: 3}
 --- !u!1 &2004562916
 GameObject:
   m_ObjectHideFlags: 0
@@ -6365,6 +6439,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &2004562919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6515,6 +6591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+  hitsToBreak: 0
+  hitSprite: {fileID: 0}
 --- !u!61 &2097155395
 BoxCollider2D:
   m_ObjectHideFlags: 0
